@@ -5,14 +5,14 @@
   "private": true,
   "scripts": {
     "dev": "waku dev",
-    "build": "waku build",
+    "build": "waku build -- --with-aws-lambda",
     "start": "waku start"
   },
   "dependencies": {
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "react-server-dom-webpack": "19.1.1",
-    "waku": "0.26.1"
+    "waku": "file:../waku/packages/waku"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.13",
